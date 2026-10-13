@@ -1,0 +1,230 @@
+{
+  "source_root": "/home/nicolas-gouveia/Imagens/Fotos-Maycon-Cena",
+  "project_root": "/home/nicolas-gouveia/PROJETOS/Maycon-Cenaa/Maycon-Cenaa",
+  "hero_principal": "assets/images/hero/hero-04.png",
+  "duplicates": [
+    [
+      "Beauty/Modelo-01/IMG_0217.MOV",
+      "Fashion/IMG_0217.MOV"
+    ]
+  ],
+  "files": [
+    {
+      "original": "Beauty/Modelo-01/IMG_0258.PNG",
+      "destination": "assets/images/beauty/model-01/beauty-model-01-01.PNG",
+      "sha256": "81c0b1286b8770d53b51f294c21584089b151ae4107ac89725fa9291098e14c4",
+      "bytes": 2687205,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-01/IMG_0259.PNG",
+      "destination": "assets/images/beauty/model-01/beauty-model-01-02.PNG",
+      "sha256": "5768754162598f403b2483b09d6b57dd60a44c3a76f21bf180525274abf499a2",
+      "bytes": 2419601,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-01/IMG_0217.MOV",
+      "destination": "assets/videos/beauty/model-01/beauty-model-01-01.MOV",
+      "sha256": "e48c4049b2453c78c29ea68bf89186bf659da22a106d8d0f7af71b2bb3c30674",
+      "bytes": 23164451,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-02/IMG_5185.JPG.jpeg",
+      "destination": "assets/images/beauty/model-02/beauty-model-02-01.jpeg",
+      "sha256": "71307c8206b78b41f7e0c566286898d75c2ee8110d93f6a98d84e9fa50702259",
+      "bytes": 8747268,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-02/IMG_5200.JPG.jpeg",
+      "destination": "assets/images/beauty/model-02/beauty-model-02-02.jpeg",
+      "sha256": "4d9d93b00212435fef67aa8f3ddb4854c273411ec773db87a3411c640b97768c",
+      "bytes": 10188456,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-02/IMG_5201.JPG.jpeg",
+      "destination": "assets/images/beauty/model-02/beauty-model-02-03.jpeg",
+      "sha256": "787ffbf801ce630142343d6435dfbb1c53bf7372ca09903706e66f47a1f0af38",
+      "bytes": 9665262,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-03/IMG_5206.JPG.jpeg",
+      "destination": "assets/images/beauty/model-03/beauty-model-03-01.jpeg",
+      "sha256": "c1f71696575e1a116f208bc4ea342c2cd224b9fa2fadd62d35d08de70af543ac",
+      "bytes": 8135403,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-03/IMG_5207.JPG.jpeg",
+      "destination": "assets/images/beauty/model-03/beauty-model-03-02.jpeg",
+      "sha256": "c3d4a25e66790f39c65980ff04c248f60b10b6894de19012e35ab9d42712ffe5",
+      "bytes": 10210890,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-03/IMG_5208.JPG.jpeg",
+      "destination": "assets/images/beauty/model-03/beauty-model-03-03.jpeg",
+      "sha256": "9d779b08f2e1a4c98b47e00a485d46e00c0a3ca5be85cebe63affcf4ac5b9b9d",
+      "bytes": 10189158,
+      "status": "selecionado"
+    },
+    {
+      "original": "Beauty/Modelo-03/IMG_0273.MOV",
+      "destination": "assets/videos/beauty/model-03/beauty-model-03-01.MOV",
+      "sha256": "473491b23df7415e6b95ef63c667a07b71d45d1902e1252990d3cdd8f33cae9a",
+      "bytes": 13863562,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0211.JPG.jpeg",
+      "destination": "assets/images/fashion/editorial-01/fashion-editorial-01-01.jpeg",
+      "sha256": "23227503860f4fe511da3172dd618c22b3449a873d9a9b2850a6c7d17e6fdb05",
+      "bytes": 935071,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0213.JPG.jpeg",
+      "destination": "assets/images/fashion/editorial-01/fashion-editorial-01-02.jpeg",
+      "sha256": "59572d4bc2fb02dcdb6d59b356b453c0f033bf05e331482bc8473422626ec950",
+      "bytes": 716645,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0215.JPG.jpeg",
+      "destination": "assets/images/fashion/editorial-01/fashion-editorial-01-03.jpeg",
+      "sha256": "b7e83bc7b58c34c04ec08adb293e7c06ee833ede8af42b6db80f9b06a6e6d560",
+      "bytes": 1078067,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0255.PNG",
+      "destination": "assets/images/fashion/editorial-01/fashion-editorial-01-04.PNG",
+      "sha256": "328f47cc2f6c673b2fc46f2bc863e880a943161bd19f7bc98a49402bbe70bfd0",
+      "bytes": 2497067,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0257.PNG",
+      "destination": "assets/images/fashion/editorial-01/fashion-editorial-01-05.PNG",
+      "sha256": "5e766a6344ebe96e534c56e3c59420e79fe6e0a62837a2faf0bec9438a372497",
+      "bytes": 2125270,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0054.MOV",
+      "destination": "assets/videos/fashion/editorial-01/fashion-editorial-01-01.MOV",
+      "sha256": "6d7399dfc6aafbda2c97c79ac899aeb1c0074f23d5cb00f1d7688ecf464bf6de",
+      "bytes": 24530789,
+      "status": "selecionado"
+    },
+    {
+      "original": "Fashion/IMG_0217.MOV",
+      "destination": "assets/videos/fashion/editorial-01/fashion-editorial-01-02.MOV",
+      "sha256": "e48c4049b2453c78c29ea68bf89186bf659da22a106d8d0f7af71b2bb3c30674",
+      "bytes": 23164451,
+      "status": "selecionado"
+    },
+    {
+      "original": "Bridal/IMG_9647.JPG.jpeg",
+      "destination": "assets/images/bridal/editorial-01/bridal-editorial-01-01.jpeg",
+      "sha256": "b4694d5b122b98b308d1b6b39959586fe66eb085aae6dc92feda19a07455563f",
+      "bytes": 1107918,
+      "status": "selecionado"
+    },
+    {
+      "original": "Bridal/IMG_9648.JPG.jpeg",
+      "destination": "assets/images/bridal/editorial-01/bridal-editorial-01-02.jpeg",
+      "sha256": "e8cf236782100a681a160c01f17cfef6af6a86439948eb3b47a1d74eb7354c29",
+      "bytes": 1112352,
+      "status": "selecionado"
+    },
+    {
+      "original": "Bridal/IMG_8963.MOV",
+      "destination": "assets/videos/bridal/editorial-01/bridal-editorial-01-01.MOV",
+      "sha256": "ab183160b801015d97d743dc7316aa57313e871a4d9f71c6ed6a2dded58e55f0",
+      "bytes": 19230041,
+      "status": "selecionado"
+    },
+    {
+      "original": "Bridal/IMG_8966.MOV",
+      "destination": "assets/videos/bridal/editorial-01/bridal-editorial-01-02.MOV",
+      "sha256": "9def027a1dbbb8111170b225aa215bef1b759ad1cf2a8c9816a41c167a008d46",
+      "bytes": 30795981,
+      "status": "selecionado"
+    },
+    {
+      "original": "Bridal/IMG_8967(1).MOV",
+      "destination": "assets/videos/bridal/editorial-01/bridal-editorial-01-03.MOV",
+      "sha256": "8977004b6cb16ad4e1cd8bfd32d631ad0a724b88b744230184f49e9930ec31de",
+      "bytes": 41738950,
+      "status": "selecionado"
+    },
+    {
+      "original": "Bridal/IMG_9650.MOV",
+      "destination": "assets/videos/bridal/editorial-01/bridal-editorial-01-04.MOV",
+      "sha256": "569579c289c1c9c8dcccadfa207142f45f38a25dca94310913b8153e94fe5da2",
+      "bytes": 16077085,
+      "status": "selecionado"
+    },
+    {
+      "original": "Drop/IMG_7843.JPG.jpeg",
+      "destination": "assets/images/drop/campaign-01/drop-campaign-01-01.jpeg",
+      "sha256": "c0f9c443f4f53d66c18ede22970234c6ab752091a147642b627bac5eb0364309",
+      "bytes": 6410795,
+      "status": "selecionado"
+    },
+    {
+      "original": "Drop/IMG_7849.JPG.jpeg",
+      "destination": "assets/images/drop/campaign-01/drop-campaign-01-02.jpeg",
+      "sha256": "088516d620659fff6e21e341f11117f7aaa033809b8b43b2b84ff9ece2ea9ce5",
+      "bytes": 5915954,
+      "status": "selecionado"
+    },
+    {
+      "original": "Drop/IMG_7938.JPG.jpeg",
+      "destination": "assets/images/drop/campaign-01/drop-campaign-01-03.jpeg",
+      "sha256": "8c01d1232922d0c820adeecf6c449d31811deb993fb821f5697efee73d2d2050",
+      "bytes": 731906,
+      "status": "selecionado"
+    },
+    {
+      "original": "possiveis fotos para HERO/heroTypographyOverlay.png",
+      "destination": "assets/images/hero/hero-01.png",
+      "sha256": "8044201e0b0625dd024aa5ccea9ddea3eb14a7480d7158d8d5ed6e5e4590b120",
+      "bytes": 2181366,
+      "status": "selecionado"
+    },
+    {
+      "original": "possiveis fotos para HERO/herofotocrua.jpeg",
+      "destination": "assets/images/hero/hero-02.jpeg",
+      "sha256": "4646bfb04af3428accf5f8eb0363230f6797ddd538da0fdb29dddfd44351ece3",
+      "bytes": 1038395,
+      "status": "selecionado"
+    },
+    {
+      "original": "possiveis fotos para HERO/herohardflash.png",
+      "destination": "assets/images/hero/hero-03.png",
+      "sha256": "19121d4ad3886e123e68030f8070f7dc53c12dc327fb85636eb1a0ddb486c2c4",
+      "bytes": 2549309,
+      "status": "selecionado"
+    },
+    {
+      "original": "possiveis fotos para HERO/herospeedblur(Principal).png",
+      "destination": "assets/images/hero/hero-04.png",
+      "sha256": "51db18bb26017ec6a8e127a650b65e00e794fc2ee8607ea838c6a89e062dc551",
+      "bytes": 2232712,
+      "status": "selecionado"
+    },
+    {
+      "original": "IMG_0263.MOV",
+      "destination": null,
+      "sha256": "2c22e47ac24c482dfb04617e0749aa47f07b4ad6aad9007cf5fe096c01be1fd2",
+      "bytes": 9975893,
+      "status": "fora da seleção; bastidores mantidos na origem"
+    }
+  ]
+}

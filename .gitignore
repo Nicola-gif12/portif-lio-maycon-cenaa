@@ -1,0 +1,26 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporários e caches
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.log
+.cache/
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+.vercel/
+.aws
+.codex/
+.agents/
+
+# Artefatos de publicação e cache Python
+dist/
+__pycache__/
