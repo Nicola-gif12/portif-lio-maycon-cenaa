@@ -35,7 +35,7 @@
             <li><a href="#work">Work</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li class="site-nav__contact"><a href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+            <li class="site-nav__contact"><a href="#contact">Contact <span class="icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span></a></li>
           </ul>
         </nav>
       </div>
@@ -67,7 +67,7 @@
             </div>
             <!-- Enable the optional panel in CSS after the supplied graphic is available. -->
             <div class="hero__graphic" aria-hidden="true"></div>
-            <a class="hero__scroll ui-label" href="#work" lang="en">Scroll to explore <span aria-hidden="true">↓</span></a>
+            <a class="hero__scroll ui-label" href="#work" lang="en">Scroll to explore <span class="icon-arrow icon-arrow--down" aria-hidden="true"><span class="icon-arrow__glyph">↓</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></span></a>
           </div>
         </div>
       </section>
@@ -110,9 +110,12 @@
                 <p class="beauty-editorial__statement"><span lang="en">Portraiture shaped by light, texture and presence.</span><span class="editorial-translation" lang="pt-BR">Retratos moldados por luz, textura e presença.</span></p>
               </div>
               <figure data-reveal-image class="category-intro__figure">
-                <img src="assets/images/beauty/model-03/beauty-model-03-02.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato de beleza com maquiagem iluminada, cabelo liso e mão sobre o tecido branco, diante de um fundo espelhado geométrico.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-03/beauty-model-03-02-768w.webp 768w, assets/images/beauty/model-03/beauty-model-03-02-1600w.webp 1600w" sizes="(min-width: 48rem) 50vw, 100vw">
+                  <img src="assets/images/beauty/model-03/beauty-model-03-02.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato de beleza com maquiagem iluminada, cabelo liso e mão sobre o tecido branco, diante de um fundo espelhado geométrico.">
+                </picture>
               </figure>
             </header>
             <article class="beauty-chapter beauty-chapter--01" aria-labelledby="beauty-chapter-01" data-chapter="model-01">
@@ -132,10 +135,10 @@
               </figure>
               <figure class="beauty-media beauty-media--motion" data-beauty-motion>
                 <video id="beauty-motion-01" data-has-audio="true" width="1080" height="1920"
-                  src="assets/videos/beauty/model-01/beauty-model-01-01.MOV"
+                  src="assets/videos/beauty/model-01/beauty-model-01-01.mp4"
                   preload="none" muted playsinline loop controls
                   aria-label="Retrato em movimento — Beauty / 01" aria-describedby="beauty-motion-note-01"
-                  data-poster="assets/images/beauty/model-01/beauty-model-01-01.PNG">
+                  data-poster="assets/images/beauty/model-01/beauty-model-01-01-poster.webp">
                   Seu navegador não oferece reprodução de vídeo.
                 </video>
                 <figcaption class="beauty-motion__caption motion-caption">
@@ -157,7 +160,7 @@
                     </div>
                   </div>
                   <span class="beauty-motion__status" role="status"></span>
-                  <a class="beauty-motion__fallback" href="assets/videos/beauty/model-01/beauty-model-01-01.MOV">Abrir vídeo original</a>
+                  <a class="beauty-motion__fallback" href="assets/videos/beauty/model-01/beauty-model-01-01.mp4">Abrir vídeo original</a>
                 </figcaption>
               </figure>
               </div>
@@ -168,20 +171,29 @@
               </header>
               <div class="beauty-spread">
               <figure data-reveal-image class="beauty-media beauty-media--anchor">
-                <img src="assets/images/beauty/model-02/beauty-model-02-01.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato de cabelo ondulado visto de lado, com roupa preta, plantas e prateleiras ao fundo.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-02/beauty-model-02-01-768w.webp 768w, assets/images/beauty/model-02/beauty-model-02-01-1600w.webp 1600w" sizes="(min-width: 48rem) 60vw, 100vw">
+                  <img src="assets/images/beauty/model-02/beauty-model-02-01.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato de cabelo ondulado visto de lado, com roupa preta, plantas e prateleiras ao fundo.">
+                </picture>
               </figure>
               <div class="beauty-chapter__relationship">
               <figure data-reveal-image class="beauty-media beauty-media--detail">
-                <img src="assets/images/beauty/model-02/beauty-model-02-02.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato em luz lateral, com ondas no cabelo e rosto voltado para a esquerda, diante de uma parede verde.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-02/beauty-model-02-02-768w.webp 768w, assets/images/beauty/model-02/beauty-model-02-02-1600w.webp 1600w" sizes="(min-width: 48rem) 45vw, 80vw">
+                  <img src="assets/images/beauty/model-02/beauty-model-02-02.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato em luz lateral, com ondas no cabelo e rosto voltado para a esquerda, diante de uma parede verde.">
+                </picture>
               </figure>
               <figure data-reveal-image class="beauty-media beauty-media--response">
-                <img src="assets/images/beauty/model-02/beauty-model-02-03.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato mais aberto da mesma sessão, com modelo sentada em poltrona preta e cabelo ondulado sobre os ombros.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-02/beauty-model-02-03-768w.webp 768w, assets/images/beauty/model-02/beauty-model-02-03-1600w.webp 1600w" sizes="(min-width: 48rem) 45vw, 94vw">
+                  <img src="assets/images/beauty/model-02/beauty-model-02-03.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato mais aberto da mesma sessão, com modelo sentada em poltrona preta e cabelo ondulado sobre os ombros.">
+                </picture>
               </figure>
               </div>
               </div>
@@ -192,21 +204,27 @@
               </header>
               <div class="beauty-spread">
               <figure data-reveal-image class="beauty-media beauty-media--establishing">
-                <img src="assets/images/beauty/model-03/beauty-model-03-01.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato sentado diante de fundo espelhado, com tecido branco, cabelo liso e mão junto ao pescoço.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-03/beauty-model-03-01-768w.webp 768w, assets/images/beauty/model-03/beauty-model-03-01-1600w.webp 1600w" sizes="(min-width: 48rem) 50vw, 100vw">
+                  <img src="assets/images/beauty/model-03/beauty-model-03-01.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato sentado diante de fundo espelhado, com tecido branco, cabelo liso e mão junto ao pescoço.">
+                </picture>
               </figure>
               <figure data-reveal-image data-reveal-delay="100" class="beauty-media beauty-media--intimate">
-                <img src="assets/images/beauty/model-03/beauty-model-03-02.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato em três quartos, com maquiagem iluminada, cabelo liso e mão com anéis sobre o tecido branco.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-03/beauty-model-03-02-768w.webp 768w, assets/images/beauty/model-03/beauty-model-03-02-1600w.webp 1600w" sizes="(min-width: 48rem) 40vw, 84vw">
+                  <img src="assets/images/beauty/model-03/beauty-model-03-02.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato em três quartos, com maquiagem iluminada, cabelo liso e mão com anéis sobre o tecido branco.">
+                </picture>
               </figure>
               <figure class="beauty-media beauty-media--motion" data-beauty-motion>
                 <video id="beauty-motion-03" data-has-audio="true" width="1080" height="1920"
-                  src="assets/videos/beauty/model-03/beauty-model-03-01.MOV"
+                  src="assets/videos/beauty/model-03/beauty-model-03-01.mp4"
                   preload="none" muted playsinline loop controls
                   aria-label="Retrato em movimento — Beauty / 03" aria-describedby="beauty-motion-note-03"
-                  data-poster="assets/images/beauty/model-03/beauty-model-03-01.jpeg">
+                  data-poster="assets/images/beauty/model-03/beauty-model-03-01-poster.webp">
                   Seu navegador não oferece reprodução de vídeo.
                 </video>
                 <figcaption class="beauty-motion__caption motion-caption">
@@ -228,18 +246,21 @@
                     </div>
                   </div>
                   <span class="beauty-motion__status" role="status"></span>
-                  <a class="beauty-motion__fallback" href="assets/videos/beauty/model-03/beauty-model-03-01.MOV">Abrir vídeo original</a>
+                  <a class="beauty-motion__fallback" href="assets/videos/beauty/model-03/beauty-model-03-01.mp4">Abrir vídeo original</a>
                 </figcaption>
               </figure>
               <figure data-reveal-image class="beauty-media beauty-media--final">
-                <img src="assets/images/beauty/model-03/beauty-model-03-03.jpeg"
-                  width="4000" height="6000" loading="lazy" decoding="async"
-                  alt="Retrato frontal com luz atrás da cabeça, cabelo sobre os ombros e tecido branco em primeiro plano.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/beauty/model-03/beauty-model-03-03-768w.webp 768w, assets/images/beauty/model-03/beauty-model-03-03-1600w.webp 1600w" sizes="(min-width: 48rem) 50vw, 94vw">
+                  <img src="assets/images/beauty/model-03/beauty-model-03-03.jpeg"
+                    width="4000" height="6000" loading="lazy" decoding="async"
+                    alt="Retrato frontal com luz atrás da cabeça, cabelo sobre os ombros e tecido branco em primeiro plano.">
+                </picture>
               </figure>
               </div>
             </article>
             <div class="beauty-editorial__closing">
-              <a class="beauty-next" href="#work-fashion"><span class="ui-label" lang="en">Next project</span><span class="beauty-next__name" lang="en">Fashion <span aria-hidden="true">↘</span></span></a>
+              <a class="beauty-next" href="#work-fashion"><span class="ui-label" lang="en">Next project</span><span class="beauty-next__name" lang="en">Fashion <span class="icon-arrow icon-arrow--down-right" aria-hidden="true"><span class="icon-arrow__glyph">↘</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 5 14 14M9 19h10V9"/></svg></span></span></a>
             </div>
           </section>
 
@@ -287,10 +308,10 @@
             <div class="fashion-studio">
               <figure class="fashion-motion fashion-motion--scene" data-editorial-motion>
                 <video id="fashion-motion-01" data-has-audio="true" width="1080" height="1920"
-                  src="assets/videos/fashion/editorial-01/fashion-editorial-01-01.MOV"
+                  src="assets/videos/fashion/editorial-01/fashion-editorial-01-01.mp4"
                   preload="none" muted playsinline loop controls
                   aria-label="Editorial em movimento — Fashion / 01" aria-describedby="fashion-motion-note-01"
-                  data-poster="assets/images/fashion/editorial-01/fashion-editorial-01-05.PNG">
+                  data-poster="assets/images/fashion/editorial-01/fashion-editorial-01-05-poster.webp">
                   Seu navegador não oferece reprodução de vídeo.
                 </video>
                 <figcaption class="fashion-motion__caption motion-caption">
@@ -312,7 +333,7 @@
                     </div>
                   </div>
                   <span class="fashion-motion__status" data-motion-status role="status"></span>
-                  <a class="fashion-motion__fallback" data-motion-fallback href="assets/videos/fashion/editorial-01/fashion-editorial-01-01.MOV">Abrir vídeo original</a>
+                  <a class="fashion-motion__fallback" data-motion-fallback href="assets/videos/fashion/editorial-01/fashion-editorial-01-01.mp4">Abrir vídeo original</a>
                 </figcaption>
               </figure>
               <figure data-reveal-image class="fashion-photo fashion-photo--chair">
@@ -329,10 +350,10 @@
               </figure>
               <figure class="fashion-motion fashion-motion--detail" data-editorial-motion>
                 <video id="fashion-motion-02" data-has-audio="true" width="1080" height="1920"
-                  src="assets/videos/fashion/editorial-01/fashion-editorial-01-02.MOV"
+                  src="assets/videos/fashion/editorial-01/fashion-editorial-01-02.mp4"
                   preload="none" muted playsinline loop controls
                   aria-label="Editorial em movimento — Fashion / 02" aria-describedby="fashion-motion-note-02"
-                  data-poster="assets/images/fashion/editorial-01/fashion-editorial-01-04.PNG">
+                  data-poster="assets/images/fashion/editorial-01/fashion-editorial-01-04-poster.webp">
                   Seu navegador não oferece reprodução de vídeo.
                 </video>
                 <figcaption class="fashion-motion__caption motion-caption">
@@ -354,13 +375,13 @@
                     </div>
                   </div>
                   <span class="fashion-motion__status" data-motion-status role="status"></span>
-                  <a class="fashion-motion__fallback" data-motion-fallback href="assets/videos/fashion/editorial-01/fashion-editorial-01-02.MOV">Abrir vídeo original</a>
+                  <a class="fashion-motion__fallback" data-motion-fallback href="assets/videos/fashion/editorial-01/fashion-editorial-01-02.mp4">Abrir vídeo original</a>
                 </figcaption>
               </figure>
             </div>
 
             <div class="fashion-editorial__closing">
-              <a class="fashion-next" href="#work-bridal"><span class="ui-label" lang="en">Next project</span><span class="fashion-next__name" lang="en">Bridal <span aria-hidden="true">↘</span></span></a>
+              <a class="fashion-next" href="#work-bridal"><span class="ui-label" lang="en">Next project</span><span class="fashion-next__name" lang="en">Bridal <span class="icon-arrow icon-arrow--down-right" aria-hidden="true"><span class="icon-arrow__glyph">↘</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 5 14 14M9 19h10V9"/></svg></span></span></a>
             </div>
           </section>
 
@@ -392,10 +413,10 @@
             <div class="bridal-pair">
               <figure class="bridal-motion" data-editorial-motion data-reveal-item data-reveal-style="soft">
                 <video id="bridal-motion" data-has-audio="true" width="1080" height="1920"
-                  src="assets/videos/bridal/editorial-01/bridal-editorial-01-03.MOV"
+                  src="assets/videos/bridal/editorial-01/bridal-editorial-01-03.mp4"
                   preload="none" muted playsinline loop controls
                   aria-label="Retrato em movimento da noiva" aria-describedby="bridal-motion-note"
-                  data-poster="assets/images/bridal/editorial-01/bridal-editorial-01-01.jpeg">
+                  data-poster="assets/images/bridal/editorial-01/bridal-editorial-01-01-poster.webp">
                   Seu navegador não oferece reprodução de vídeo.
                 </video>
                 <figcaption class="bridal-motion__caption motion-caption">
@@ -420,7 +441,7 @@
                     </div>
                   </div>
                   <span class="bridal-motion__status" data-motion-status role="status"></span>
-                  <a class="bridal-motion__fallback" data-motion-fallback href="assets/videos/bridal/editorial-01/bridal-editorial-01-03.MOV">Abrir vídeo original</a>
+                  <a class="bridal-motion__fallback" data-motion-fallback href="assets/videos/bridal/editorial-01/bridal-editorial-01-03.mp4">Abrir vídeo original</a>
                 </figcaption>
               </figure>
               <figure data-reveal-image data-reveal-delay="100" class="bridal-photo bridal-pair__photo">
@@ -443,15 +464,21 @@
 
             <div class="campaign-spread">
               <figure data-reveal-image class="campaign-photo campaign-photo--lead">
-                <img src="assets/images/drop/campaign-01/drop-campaign-01-01.jpeg"
-                  width="4284" height="5712" loading="lazy" decoding="async"
-                  alt="Modelo de óculos escuros veste moletom claro com a palavra Presença, em área externa sob céu nublado.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/drop/campaign-01/drop-campaign-01-01-768w.webp 768w, assets/images/drop/campaign-01/drop-campaign-01-01-1600w.webp 1600w" sizes="(min-width: 48rem) 60vw, 100vw">
+                  <img src="assets/images/drop/campaign-01/drop-campaign-01-01.jpeg"
+                    width="4284" height="5712" loading="lazy" decoding="async"
+                    alt="Modelo de óculos escuros veste moletom claro com a palavra Presença, em área externa sob céu nublado.">
+                </picture>
                 <figcaption class="campaign-photo__caption ui-label" lang="en">DROP — Brand editorial</figcaption>
               </figure>
               <figure data-reveal-image data-reveal-delay="100" class="campaign-photo campaign-photo--response">
-                <img src="assets/images/drop/campaign-01/drop-campaign-01-02.jpeg"
-                  width="4284" height="5712" loading="lazy" decoding="async"
-                  alt="Modelo de corpo inteiro veste moletom escuro Peregrinos, jeans e tênis, em pose na mesma área externa.">
+                <picture>
+                  <source type="image/webp" srcset="assets/images/drop/campaign-01/drop-campaign-01-02-768w.webp 768w, assets/images/drop/campaign-01/drop-campaign-01-02-1600w.webp 1600w" sizes="(min-width: 48rem) 50vw, 90vw">
+                  <img src="assets/images/drop/campaign-01/drop-campaign-01-02.jpeg"
+                    width="4284" height="5712" loading="lazy" decoding="async"
+                    alt="Modelo de corpo inteiro veste moletom escuro Peregrinos, jeans e tênis, em pose na mesma área externa.">
+                </picture>
               </figure>
               <figure data-reveal-image class="campaign-photo campaign-photo--product">
                 <img src="assets/images/drop/campaign-01/drop-campaign-01-03.jpeg"
@@ -499,7 +526,7 @@
             <details class="service-row" data-reveal-item>
               <summary class="service-row__summary">
                 <h3 class="service-row__heading"><span lang="en">PHOTOGRAPHY</span><span class="service-row__translation editorial-translation" lang="pt-BR">Fotografia</span>
-                  <span class="service-row__arrow" aria-hidden="true">↗</span>
+                  <span class="service-row__arrow icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
                 </h3>
               </summary>
               <div class="service-row__description">
@@ -510,7 +537,7 @@
             <details class="service-row" data-reveal-item>
               <summary class="service-row__summary">
                 <h3 class="service-row__heading"><span lang="en">VIDEOMAKING</span><span class="service-row__translation editorial-translation" lang="pt-BR">Produção de vídeo</span>
-                  <span class="service-row__arrow" aria-hidden="true">↗</span>
+                  <span class="service-row__arrow icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
                 </h3>
               </summary>
               <div class="service-row__description">
@@ -521,7 +548,7 @@
             <details class="service-row" data-reveal-item>
               <summary class="service-row__summary">
                 <h3 class="service-row__heading"><span lang="en">STORYMAKING</span><span class="service-row__translation editorial-translation" lang="pt-BR">Produção de stories</span>
-                  <span class="service-row__arrow" aria-hidden="true">↗</span>
+                  <span class="service-row__arrow icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
                 </h3>
               </summary>
               <div class="service-row__description">
@@ -532,7 +559,7 @@
             <details class="service-row" data-reveal-item>
               <summary class="service-row__summary">
                 <h3 class="service-row__heading"><span lang="en">EVENT COVERAGE</span><span class="service-row__translation editorial-translation" lang="pt-BR">Cobertura de eventos</span>
-                  <span class="service-row__arrow" aria-hidden="true">↗</span>
+                  <span class="service-row__arrow icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
                 </h3>
               </summary>
               <div class="service-row__description">
@@ -553,12 +580,12 @@
             <a class="contact-link" href="https://www.instagram.com/mayconcenaa/" target="_blank" rel="noopener noreferrer" aria-describedby="contact-external-note">
               <span class="contact-link__label ui-label">Instagram</span>
               <span class="contact-link__value">@mayconcenaa</span>
-              <span class="contact-link__arrow" aria-hidden="true">↗</span>
+              <span class="contact-link__arrow icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
             </a>
-            <a class="contact-link" href="https://wa.me/5531995283510" target="_blank" rel="noopener noreferrer" aria-describedby="contact-external-note">
+            <a class="contact-link" href="https://wa.me/5531995283510?text=Ol%C3%A1%2C%20Maycon%21%20Tudo%20bem%3F%20Conheci%20seu%20trabalho%20atrav%C3%A9s%20do%20seu%20portf%C3%B3lio%20e%20gostei%20muito%20do%20que%20vi.%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20projeto.%20Podemos%20conversar%3F" target="_blank" rel="noopener noreferrer" aria-describedby="contact-external-note">
               <span class="contact-link__label ui-label">WhatsApp</span>
               <span class="contact-link__value">+55 (31) 99528-3510</span>
-              <span class="contact-link__arrow" aria-hidden="true">↗</span>
+              <span class="contact-link__arrow icon-arrow icon-arrow--up-right" aria-hidden="true"><span class="icon-arrow__glyph">↗</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
             </a>
             <p class="contact__external-note" id="contact-external-note"><span lang="en">Links open in a new tab.</span><span class="editorial-translation" lang="pt-BR">Os links abrem em uma nova aba.</span></p>
           </div>

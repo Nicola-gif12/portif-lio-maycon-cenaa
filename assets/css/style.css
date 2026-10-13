@@ -133,6 +133,14 @@ video {
   block-size: auto;
 }
 
+/* Keep the approved text arrows on desktop; mobile uses stable monochrome SVGs. */
+.icon-arrow svg { display: none; }
+@media (width < 48rem) {
+  .icon-arrow { display: inline-flex; inline-size: 1em; block-size: 1em; align-items: center; justify-content: center; vertical-align: -0.1em; }
+  .icon-arrow__glyph { display: none; }
+  .icon-arrow svg { display: block; inline-size: 100%; block-size: 100%; }
+}
+
 button,
 input,
 select,

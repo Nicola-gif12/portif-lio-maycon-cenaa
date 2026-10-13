@@ -69,7 +69,7 @@ for category in ('beauty', 'fashion', 'bridal', 'drop'):
     assert html.count(f'class="category-intro category-intro--{category}"') == 1
 assert html.count('<details class="service-row"') == 4
 external = [link for link in a.links if link['href'].startswith('https:')]
-assert [link['href'] for link in external] == ['https://www.instagram.com/mayconcenaa/', 'https://wa.me/5531995283510']
+assert [link['href'] for link in external] == ['https://www.instagram.com/mayconcenaa/', 'https://wa.me/5531995283510?text=Ol%C3%A1%2C%20Maycon%21%20Tudo%20bem%3F%20Conheci%20seu%20trabalho%20atrav%C3%A9s%20do%20seu%20portf%C3%B3lio%20e%20gostei%20muito%20do%20que%20vi.%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20projeto.%20Podemos%20conversar%3F']
 assert all(link['target'] == '_blank' and set(link['rel'].split()) == {'noopener', 'noreferrer'} for link in external)
 manifest = json.loads(Path('docs/asset-manifest.json').read_text())
 verified = 0
