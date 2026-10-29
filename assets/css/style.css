@@ -478,6 +478,53 @@ a {
   .hero__name { animation: hero-type-enter 1000ms var(--ease-standard) both; }
   .hero__details { animation: hero-image-enter 800ms var(--ease-standard) 120ms both; }
 }
+
+@media (max-width: 47.999rem) {
+  .beauty-editorial,
+  .fashion-editorial,
+  .bridal-editorial,
+  .campaign-editorial { margin-block-end: var(--space-3); }
+  .campaign-editorial:not(.is-gallery-expanded) { margin-block-start: 0; }
+  :is(.beauty-editorial, .fashion-editorial, .bridal-editorial, .campaign-editorial).is-gallery-expanded { margin-block-end: initial; }
+  :is(.beauty-editorial, .fashion-editorial, .bridal-editorial, .campaign-editorial):not(.is-gallery-expanded) .category-intro {
+    box-sizing: border-box;
+    block-size: 5rem;
+    min-block-size: 5rem;
+    margin-block-end: 0;
+    padding: var(--space-4);
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+  .mobile-gallery-content { display: none; }
+  .is-gallery-expanded .mobile-gallery-content { display: block; }
+  .mobile-gallery-trigger {
+    appearance: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    text-align: inherit;
+    cursor: pointer;
+  }
+  .mobile-gallery-trigger::after {
+    content: " +";
+    display: inline-block;
+    margin-inline-start: .35em;
+    font-size: .55em;
+    vertical-align: .2em;
+  }
+  .is-gallery-expanded .mobile-gallery-trigger::after { content: " −"; }
+  .category-intro__figure { display: none; }
+  .is-gallery-expanded .category-intro__figure { display: block; }
+  .category-intro__copy > :not(.category-intro__title) { display: none; }
+  .is-gallery-expanded .category-intro__copy > :not(.category-intro__title) { display: block; }
+  :is(.bridal-editorial, .campaign-editorial):not(.is-gallery-expanded) .chapter-statement { display: none; }
+  :is(.bridal-editorial, .campaign-editorial).is-gallery-expanded .chapter-statement { display: block; }
+  .beauty-next,
+  .fashion-next { display: none; }
+}
 @keyframes hero-type-enter {
   from { opacity: 0; transform: translateY(0.04em); }
   to { opacity: 1; transform: translateY(0); }

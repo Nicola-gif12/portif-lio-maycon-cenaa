@@ -31,6 +31,79 @@
   preference.addEventListener("change", syncMotion);
 })();
 
+// Mobile-only category disclosures. The original section DOM is restored on desktop.
+(() => {
+  if (!("matchMedia" in window) || !document.querySelector) return;
+  const mobile = window.matchMedia("(width < 48rem)");
+  const sections = [
+    [".beauty-editorial", ".category-intro--beauty", "beauty-title", "Beauty"],
+    [".fashion-editorial", ".category-intro--fashion", "fashion-title", "Fashion"],
+    [".bridal-editorial", ".category-intro--bridal", "bridal-title", "Bridal"],
+    [".campaign-editorial", ".category-intro--drop", "drop-title", "Campaign"]
+  ];
+  const states = [];
+
+  function pauseVideos(section) {
+    section.querySelectorAll("video").forEach((video) => video.pause());
+  }
+
+  function close(state) {
+    state.section.classList.remove("is-gallery-expanded");
+    state.button.setAttribute("aria-expanded", "false");
+    pauseVideos(state.section);
+  }
+
+  function open(state) {
+    states.forEach((other) => { if (other !== state) close(other); });
+    state.section.classList.add("is-gallery-expanded");
+    state.button.setAttribute("aria-expanded", "true");
+  }
+
+  function setup() {
+    if (!mobile.matches || states.length) return;
+    sections.forEach(([sectionSelector, introSelector, titleId, label], index) => {
+      const section = document.querySelector(sectionSelector);
+      const intro = section?.querySelector(introSelector);
+      const title = section?.querySelector(`#${titleId}`);
+      if (!section || !intro || !title) return;
+      const content = document.createElement("div");
+      content.className = "mobile-gallery-content";
+      content.id = `mobile-gallery-content-${index + 1}`;
+      while (intro.nextElementSibling) content.append(intro.nextElementSibling);
+      section.append(content);
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "mobile-gallery-trigger";
+      button.setAttribute("aria-expanded", "false");
+      button.setAttribute("aria-controls", content.id);
+      button.setAttribute("aria-label", `Abrir galeria ${label}`);
+      button.append(...Array.from(title.childNodes));
+      title.replaceChildren(button);
+      button.addEventListener("click", () => {
+        if (section.classList.contains("is-gallery-expanded")) close(states[index]);
+        else open(states[index]);
+      });
+      const state = { section, intro, button, content };
+      states.push(state);
+      close(state);
+    });
+  }
+
+  function teardown() {
+    if (mobile.matches || !states.length) return;
+    states.forEach(({ section, intro, button, content }) => {
+      while (content.firstElementChild) section.insertBefore(content.firstElementChild, content);
+      content.remove();
+      intro.querySelector("h3").replaceChildren(...Array.from(button.childNodes));
+      section.classList.remove("is-gallery-expanded");
+    });
+    states.length = 0;
+  }
+
+  setup();
+  mobile.addEventListener("change", () => { if (mobile.matches) setup(); else teardown(); });
+})();
+
 // Video visibility has a separate observer because it must keep watching exits.
 (() => {
   if (!("IntersectionObserver" in window) || !("matchMedia" in window)) return;
