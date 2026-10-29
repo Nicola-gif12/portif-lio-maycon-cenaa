@@ -1,4 +1,4 @@
-"""Static portfolio checks. Run from repository root; Pillow inspects image headers."""
+ """Static portfolio checks. Run from repository root; Pillow inspects image headers."""
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
